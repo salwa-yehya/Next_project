@@ -11,9 +11,10 @@ const Footer = () => {
       <Image src="/2.png" width={15} height={15} className={styles.icon} alt="Account" />
       <Image src="/3.png" width={15} height={15} className={styles.icon} alt="Account" />
       <Image src="/4.png" width={15} height={15} className={styles.icon} alt="Account" />
+      {/* use link fron next to add href to images */}
     </div>
   </div>
   )
-}
+} 
 
 export default Footer
